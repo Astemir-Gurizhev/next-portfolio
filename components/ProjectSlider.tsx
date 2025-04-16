@@ -7,9 +7,9 @@ import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 
 import { ProImages, ProImages2 } from '@/constants'
-import Image from 'next/image'
 import { FreeMode, Pagination } from 'swiper/modules'
 
+import Image from 'next/image'
 export const ProjectSlider = () => {
 	return (
 		<div className='w-[70%] md:w-[40%]'>
