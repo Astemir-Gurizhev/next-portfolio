@@ -3,9 +3,10 @@
 import { useCallback } from 'react'
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'
+import { Engine } from 'tsparticles-engine'
 
 export const Particle = () => {
-	const particlesInit = useCallback(async (engine: any) => {
+	const particlesInit = useCallback(async (engine: Engine) => {
 		await loadFull(engine)
 	}, [])
 
